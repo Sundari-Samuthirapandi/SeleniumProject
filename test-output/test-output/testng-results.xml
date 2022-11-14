@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-28T03:12:54Z" name="Suite" finished-at="2022-10-28T03:12:57Z" duration-ms="2817">
+    <groups>
+      <group name="regression">
+        <method signature="BookStoreTest.test4()[pri:1, instance:testcases.BookStoreTest@5652f555]" name="test4" class="testcases.BookStoreTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2022-10-28T03:12:54Z" name="Test" finished-at="2022-10-28T03:12:57Z" duration-ms="2817">
+      <class name="testcases.BookStoreTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testcases.BookStoreTest@5652f555]" started-at="2022-10-28T03:12:45Z" name="launchBrowser" finished-at="2022-10-28T03:12:54Z" duration-ms="8387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testcases.BookStoreTest@5652f555]" started-at="2022-10-28T03:12:54Z" name="login" finished-at="2022-10-28T03:12:56Z" duration-ms="2471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="test4()[pri:1, instance:testcases.BookStoreTest@5652f555]" started-at="2022-10-28T03:12:56Z" name="test4" finished-at="2022-10-28T03:12:56Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test4()[pri:1, instance:testcases.BookStoreTest@5652f555]" started-at="2022-10-28T03:12:56Z" name="test4" finished-at="2022-10-28T03:12:56Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test4()[pri:1, instance:testcases.BookStoreTest@5652f555]" started-at="2022-10-28T03:12:56Z" name="test4" finished-at="2022-10-28T03:12:56Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testcases.BookStoreTest@5652f555]" started-at="2022-10-28T03:12:56Z" name="logout" finished-at="2022-10-28T03:12:57Z" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BookStoreTest@5652f555]" started-at="2022-10-28T03:12:57Z" name="tearDown" finished-at="2022-10-28T03:12:57Z" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.BookStoreTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
