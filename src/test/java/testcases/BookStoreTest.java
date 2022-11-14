@@ -36,10 +36,9 @@ public class BookStoreTest extends BookStoreModule {
 	public void test11(String bookName) {
 		System.out.println("I'm in test 11");
 		Assert.assertEquals(false, true);
-		/*
-		 * System.out.println("At test for bookName : " + bookName); goToBookStore();
-		 * addBookToUserCollection(bookName); verifyBookAddedToUserProfile(bookName);
-		 */	}
+		  System.out.println("At test for bookName : " + bookName); goToBookStore();
+		  addBookToUserCollection(bookName); verifyBookAddedToUserProfile(bookName);
+		 	}
 
 	@Test(groups = { "Smoke", "Sanity" }, priority = 1, dependsOnMethods = "test11" )
 	public void test2() {
