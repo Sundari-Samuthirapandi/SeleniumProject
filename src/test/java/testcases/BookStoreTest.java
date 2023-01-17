@@ -55,6 +55,11 @@ public class BookStoreTest extends BookStoreModule {
 		System.out.println("I'm in test 4");
 	}
 
+	@Test(groups="sanity")
+	public void test5(){
+		System.out.println("I'm in test 5");
+	}
+
 	@AfterTest(alwaysRun = true)
 	public void logout() {
 		System.out.println("I'm in logout");
